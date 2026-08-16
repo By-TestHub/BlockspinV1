@@ -202,7 +202,7 @@ local CurrentTarget = nil
 local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
 
 local Window = WindUI:CreateWindow({
-    Title = "TEST HUB | Block Spin",
+    Title = "TEST HUB | Block Spin | เวอร์ชันทดลอง",
     Icon = "rbxassetid://117649776522765",
     Folder = "TestHub",
     Size = UDim2.fromOffset(580, 460),
