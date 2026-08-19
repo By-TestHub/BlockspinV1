@@ -1,1 +1,22 @@
+local AllowedUsers = {
+    "Kaprao_677",
+   
+""
+}
 
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local Username = LocalPlayer.Name 
+local IsAllowed = false
+
+for _, name in pairs(AllowedUsers) do
+    if Username == name then 
+        IsAllowed = true
+        break
+    end
+end
+
+if not IsAllowed then
+    LocalPlayer:Kick("By TEST HUB: สคริปปิดอัพเดท !")
+    return
+end
